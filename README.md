@@ -23,7 +23,7 @@ Redis (port 6379):
 redis-server
 ```
 
-Fill the prompts for app:
+Fill the prompts for app and follow generated link:
 
 ```bash
 yarn dev
