@@ -1,4 +1,4 @@
-Demo project for "[Shopify - send file to shop with Ruby on Rails]([url](https://dev.to/xao0isb/shopify-send-file-to-shop-with-ruby-on-rails-44i7))" article
+Demo project for "[Shopify - upload file to shop with Ruby on Rails]([url](https://dev.to/xao0isb/shopify-send-file-to-shop-with-ruby-on-rails-44i7))" article
 
 # Local run
 
