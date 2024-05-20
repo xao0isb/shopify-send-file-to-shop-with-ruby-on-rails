@@ -38,7 +38,7 @@ class Shopify::File::UploadJob < ApplicationJob
       form_data.prepend([parameter["name"], parameter["value"]])
     end
 
-    FormData.new(action: stage_url, data: form_data).send
+    FormData.new(action: stage_url, data: form_data).submit
   end
 
   def upload_from_stage_to_shop(resource_url:, shop:)

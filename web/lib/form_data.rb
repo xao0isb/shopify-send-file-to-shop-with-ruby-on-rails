@@ -6,7 +6,7 @@ class FormData
     @data = data
   end
 
-  def send
+  def submit
     request = Net::HTTP::Post.new(@uri)
     request.set_form(@data, "multipart/form-data")
 
